@@ -1,0 +1,246 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* navbar-container */
+.brand-logo {
+  margin: 0.625rem 6.25rem;
+  height: 3.438rem;
+}
+
+.navbar-nav {
+  margin-left: 6.25rem;
+}
+
+.nav-item {
+  margin-right: 1.119rem;
+}
+
+.nav-item:hover {
+  background: #2B2B2B;
+}
+
+/* slideshow section */
+.slideshowsection {
+  background: radial-gradient(#F7F6F2, white);
+}
+
+.slideshowsection2 {
+  background: radial-gradient(#F7F6F2, white);
+  margin-bottom: 3%;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* minimalist fashion */
+.minimalist {
+  background: radial-gradient(#F7F6F2, white);
+}
+
+.mininalistfashion {
+  text-align: center;
+  margin: 1.563rem;
+  position: relative;
+  line-height: 3.75rem;
+}
+
+.mininalistfashion::after {
+  content: '';
+  background: #FF0000;
+  width: 5rem;
+  height: 0.313rem;
+  border-radius: 0.313rem;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.minimalistpic {
+  width: 100%;
+  margin: 1.5% 0 0;
+}
+
+/* cards-container */
+.tshirtsection {
+  padding: 1.5% 5% 5% 5%;
+  text-align: center;
+  background: radial-gradient(#F7F6F2, white);
+}
+
+.tshirts {
+  padding: 1.5%;
+}
+
+.card {
+  padding: 1.5%;
+}
+
+.btn:hover {
+  background: #FF0000;
+}
+
+.variationame {
+  font-size: 1.25rem;
+  margin: 0.156rem 0 0;
+}
+
+.price {
+  font-size: 0.938rem;
+  color: black;
+}
+
+/* size chart-container */
+.sizechartsection {
+  padding: 1.5% 5% 5% 5%;
+  text-align: center;
+  background: radial-gradient(#F7F6F2, white);
+}
+
+.sizechartpic {
+  width: 100%;
+  margin: 1.5% 0.75%;
+}
+
+/* about-container */
+.aboutsection {
+  padding: 1.5% 12% 8% 12%;
+  text-align: center;
+}
+
+.intro {
+  text-align: center;
+  margin: 0 auto 1.563rem;
+  position: relative;
+  line-height: 3.75rem;
+}
+
+.intro::after {
+  content: '';
+  background: #FF0000;
+  width: 5rem;
+  height: 0.313rem;
+  border-radius: 0.313rem;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.aboutpic {
+  width: 100%;
+  margin: 1.5% 0.75%;
+}
+
+.aboutApic {
+  width: 25%;
+}
+
+.aboutparagraph {
+  text-align: left;
+  font-weight: normal;
+}
+
+/* footer */
+.footer {
+  background-color: black;
+  padding: 0.625rem 0 0.313rem;
+  text-align: center;
+}
+
+.h3footer {
+  padding: 0.625rem 0 0.313rem;
+}
+
+.frame {
+  margin: 0.563rem 0.563rem;
+  text-decoration: none;
+  font-size: 1.063rem;
+  color: white;
+}
+
+.frame:hover {
+  color: #FF0000;
+  text-decoration: none;
+}
+
+.copyright {
+  font-size: 0.938rem;
+  padding: 0.625rem 0 0.313rem;
+  color: #FF0000;
+}
+
+/* css media queries */
+@media screen and (max-width: 800px) {
+
+  /* navbar-container */
+  .brand-logo {
+    margin: 0.313rem 2.063rem;
+    height: 2.188rem;
+  }
+
+  .navbar-nav {
+    margin-left: 2.188rem;
+  }
+
+  /* minimalist-fashion */
+  .mininalistfashion {
+    font-size: 1.406rem;
+    margin-top: 0;
+  }
+
+  /* cards-container */
+  .variationame {
+    font-size: 0.644rem;
+    margin: 0.078rem 0 0;
+  }
+
+  .price {
+    font-size: 0.625rem;
+    margin: 0 0 0.75rem;
+  }
+
+  .btn {
+    font-size: 0.625rem;
+  }
+
+  /* about-container */
+  .intro {
+    font-size: 1.406rem;
+  }
+
+  .aboutparagraph {
+    font-size: 0.75rem;
+  }
+
+  /* footer */
+  .footer {
+    padding: 0.469rem 0 0.031rem;
+  }
+
+  .h3footer {
+    font-size: 0.938rem;
+    padding: 0.313rem 0 0.156rem;
+  }
+
+  .frame {
+    font-size: 0.563rem;
+    margin: 0.281rem 0 0;
+  }
+
+  .copyright {
+    font-size: 0.469rem;
+    padding: 0.313rem 0 0;
+  }
+}
